@@ -61,4 +61,7 @@ public class Product {
                 ", price=" + price +
                 '}';
     }
+    public boolean matches(String search) {
+        return this.name.contains(search);
+    }
 }
